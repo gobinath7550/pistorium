@@ -8,11 +8,11 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import ProductCard from "./ProductCard";
 
-export default function CollectionSlider() {
+export default function CollectionSlider({ id, title }: { id: string, title: string }) {
     return (
         <>
-            <h4 className="font-extrabold text-center tracking-wide text-[var(--background)] text-3xl md:text-5xl ml-2.5 font-pacifico md:mb-4">
-                {"Brownies"}
+            <h4 id={id} className="font-extrabold text-center tracking-wide text-[var(--background)] text-3xl md:text-5xl ml-2.5 font-pacifico md:mb-4 scroll-mt-20 lg:scroll-mt-24">
+                {title}
             </h4>
             <Swiper
                 spaceBetween={10}

@@ -1,17 +1,39 @@
+import Link from 'next/link';
+
 export default function Footer() {
     return (
         <footer className="w-full py-14 bg-[var(--background)] font-poppins">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div className="max-w-3xl mx-auto">
-                    <a href="#" className="flex justify-center text-yellow-50 text-4xl tracking-wider font-bold font-pacifico">
+                    <Link href="/" className="flex justify-center text-yellow-50 text-4xl tracking-wider font-bold font-pacifico">
                         {"Pistorium"}
-                    </a>
+                    </Link>
                     <ul className="text-lg flex items-center justify-center flex-col gap-7 md:flex-row md:gap-12 transition-all duration-500 py-10 mb-10 border-b border-gray-200">
-                        <li><a href="#" className="text-yellow-50 hover:text-yellow-100">Home</a></li>
-                        <li><a href="#" className=" text-yellow-50 hover:text-yellow-100">Brownies</a></li>
-                        <li><a href="#" className=" text-yellow-50 hover:text-yellow-100">Cakes</a></li>
-                        <li><a href="#" className=" text-yellow-50 hover:text-yellow-100">Blogs</a></li>
-                        <li><a href="#" className=" text-yellow-50 hover:text-yellow-100">Contact Us</a></li>
+                        <li>
+                            <Link href="/" className="text-yellow-50 hover:text-yellow-100">
+                            {"Home"}
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="#brownies" className=" text-yellow-50 hover:text-yellow-100">
+                            {"Brownies"}
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="#cakes" className=" text-yellow-50 hover:text-yellow-100">
+                            {"Cakes"}
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="#theme-cakes" className=" text-yellow-50 hover:text-yellow-100">
+                            {"Theme Cakes"}
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="#chocolates" className=" text-yellow-50 hover:text-yellow-100">
+                            {"Chocolates"}
+                            </Link>
+                        </li>
                     </ul>
                     <div className="flex space-x-10 justify-center items-center mb-14">
                         <a href="#" className="block  text-yellow-50 transition-all duration-500 hover:text-indigo-600 ">
@@ -37,7 +59,7 @@ export default function Footer() {
                         </a>
                     </div>
                     <span className="text-lg text-yellow-50 text-center block">
-                        <a href="https://pagedone.io/">{"Pistorium @"}</a> {"2024, All rights reserved."}
+                        <a href="#">{"Pistorium @"}</a> {"2024, All rights reserved."}
                     </span>
                 </div>
             </div>

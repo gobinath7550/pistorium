@@ -82,7 +82,6 @@ export default function Home() {
                                 <div className="relative overflow-hidden w-full h-full">
                                     <div className="absolute inset-0">
                                         <Image
-                                            className="dark:invert"
                                             src="/banner/home-banner-1.JPG"
                                             alt="Chocolate Brownie Cake"
                                             width={780}
@@ -114,7 +113,6 @@ export default function Home() {
                                 <div className="relative overflow-hidden w-full h-full">
                                     <div className="absolute inset-0">
                                         <Image
-                                            className="dark:invert"
                                             src="/banner/home-banner-2.JPG"
                                             alt="Homemade Brownies"
                                             width={780}
@@ -182,7 +180,7 @@ export default function Home() {
             </section>
             <section className="categories-slider-section">
                 <div className="mx-auto max-w-[105rem] pt-6 lg:pt-8 px-4 sm:px-6 lg:px-8">
-                    <CollectionSlider />
+                    <CollectionSlider id="brownies" title="Brownies" />
                 </div>
             </section>
             <section className="promotion-banner-slider-section">
@@ -226,7 +224,7 @@ export default function Home() {
             </section>
             <section className="categories-slider-section">
                 <div className="mx-auto max-w-[105rem] pt-6 lg:pt-8 px-4 sm:px-6 lg:px-8">
-                    <CollectionSlider />
+                    <CollectionSlider id="cakes" title="Cakes" />
                 </div>
             </section>
             <section className="font-poppins">
@@ -305,7 +303,7 @@ export default function Home() {
             </section>
             <section className="categories-slider-section">
                 <div className="mx-auto max-w-[105rem] pt-6 lg:pt-8 px-4 sm:px-6 lg:px-8">
-                    <CollectionSlider />
+                    <CollectionSlider id="theme-cakes" title="Theme Cakes" />
                 </div>
             </section>
         </PageRender>

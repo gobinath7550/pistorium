@@ -1,11 +1,12 @@
 "use client";
 
 import Image from "next/image";
+import Link from 'next/link';
 
 export default function ProductCard() {
     return (
         <div className="w-full max-w-sm border border-gray-400 hover:border-[var(--background)] rounded-lg shadow-xl my-6 mb-8 font-poppins md:hover:scale-105 transition-transform">
-            <a href="#">
+            <Link href="/products/12">
                 <Image
                     className="rounded-t-lg"
                     src="/products/opera/opera_cake-main.jpeg"
@@ -14,13 +15,13 @@ export default function ProductCard() {
                     height={680}
                     priority
                 />
-            </a>
+            </Link>
             <div className="p-8">
-                <a href="#">
-                    <h5 className="text-xl font-semibold tracking-tight text-gray-900">
+                <Link href="/products/12">
+                    <h5 className="text-xl font-semibold tracking-tight text-[var(--background)] border-b-2 border-transparent hover:border-[var(--background)] w-fit">
                         {"Homemade Brownies"}
                     </h5>
-                </a>
+                </Link>
                 <div className="flex items-center mt-2.5 mb-5">
                     <div className="flex items-center space-x-1 rtl:space-x-reverse">
                         <svg
@@ -77,12 +78,16 @@ export default function ProductCard() {
                     <span className="text-3xl font-bold text-[var(--background)]">
                         {"Rs. 599"}
                     </span>
-                    <a
+                    <Link
                         href="#"
+                        role="button"
                         className="text-white bg-[var(--background)] hover:bg-[var(--background)] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
+                        onClick={(e) => {
+                            e.preventDefault();
+                        }}
                     >
                         {"Add to cart"}
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>
