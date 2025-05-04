@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Gallery from "../../_components/theme/product/Gallery";
 import PageRender from "../../_components/theme/PageRender";
 
@@ -15,7 +14,7 @@ export default async function PDP({
                 <div className="md:flex gap-4 -mx-4">
                     <Gallery />
                     <div className="w-full md:w-1/2 px-6">
-                        <h2 className="text-3xl md:text-5xl font-bold mb-2">{"Homemade Brownies"}</h2>
+                        <h2 className="text-3xl md:text-5xl font-bold mb-2">{`Homemade Brownies ${id}`}</h2>
                         <p className="text-gray-600 mb-4 text-xl">{"SKU: WH1000XM4"}</p>
                         <div className="mb-4 text-xl">
                             <span className="text-2xl font-bold mr-2">{"Rs. 349.99"}</span>

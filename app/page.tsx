@@ -4,6 +4,7 @@ import React, { useRef } from "react";
 import Image from "next/image";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import type { Swiper as SwiperType } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -12,7 +13,7 @@ import CollectionSlider from "./_components/theme/global/CollectionSlider";
 
 export default function Home() {
     const progressContent = useRef<HTMLDivElement>(null);
-    const onAutoplayTimeLeft = (s: any, time: number, progress: number) => {
+    const onAutoplayTimeLeft = (s: SwiperType, time: number, progress: number) => {
         if (progressContent?.current?.textContent != null) {
             progressContent.current.style.width = `${
                 100 - Math.ceil(progress * 100)
