@@ -1,4 +1,3 @@
-import AnnouncementBar from "./global/AnnouncementBar";
 import Footer from "./global/Footer";
 import Header from "./global/Header";
 
@@ -9,7 +8,6 @@ export default function PageRender({
 }>) {
     return (
         <>
-            <AnnouncementBar />
             <Header />
             <main className="bg-yellow-50 text-[var(--background)]">
                 {children}

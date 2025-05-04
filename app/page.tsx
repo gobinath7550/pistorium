@@ -230,10 +230,7 @@ export default function Home() {
             <section className="font-poppins">
                 <div className="mx-auto max-w-[105rem] pt-6 lg:pt-8 px-4 sm:px-6 lg:px-8">
                     <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
-                        <a
-                            href="#"
-                            className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80"
-                        >
+                        <div className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
                             <Image
                                 className="absolute object-center object-cover w-full h-full group-hover:scale-105 transition-transform"
                                 src="/gallery/gallery-1.jpg"
@@ -246,11 +243,8 @@ export default function Home() {
                             <span className="relative md:translate-y-20 md:group-hover:translate-y-0 ml-4 mb-6 inline-block text-yellow-50 md:ml-5 text-xl md:text-2xl font-extrabold md:transition-all">
                                 {"Triple Chocolate Fudge Cake"}
                             </span>
-                        </a>
-                        <a
-                            href="#"
-                            className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80"
-                        >
+                        </div>
+                        <div className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
                             <Image
                                 className="absolute object-bottom object-cover w-full h-full group-hover:scale-105 transition-transform"
                                 src="/gallery/gallery-2.jpg"
@@ -263,11 +257,8 @@ export default function Home() {
                             <span className="relative md:translate-y-20 md:group-hover:translate-y-0 ml-4 mb-6 inline-block text-yellow-50 md:ml-5 text-xl md:text-2xl font-extrabold md:transition-all">
                                 {"Dark Forest Fantasy Cake"}
                             </span>
-                        </a>
-                        <a
-                            href="#"
-                            className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80"
-                        >
+                        </div>
+                        <div className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
                             <Image
                                 className="absolute object-center object-cover w-full h-full group-hover:scale-105 transition-transform"
                                 src="/gallery/gallery-3.jpg"
@@ -280,11 +271,8 @@ export default function Home() {
                             <span className="relative md:translate-y-20 md:group-hover:translate-y-0 ml-4 mb-6 inline-block text-yellow-50 md:ml-5 text-xl md:text-2xl font-extrabold md:transition-all">
                                 {"Gooey Choco Chunk Cookie"}
                             </span>
-                        </a>
-                        <a
-                            href="#"
-                            className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80"
-                        >
+                        </div>
+                        <div className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
                             <Image
                                 className="absolute object-center object-cover w-full h-full hover:scale-105 transition-transform"
                                 src="/gallery/gallery-4.jpg"
@@ -297,7 +285,7 @@ export default function Home() {
                             <span className="relative md:translate-y-20 md:group-hover:translate-y-0 ml-4 mb-6 inline-block text-yellow-50 md:ml-5 text-xl md:text-2xl font-extrabold md:transition-all">
                                 {"Classic Minion Celebration Cake"}
                             </span>
-                        </a>
+                        </div>
                     </div>
                 </div>
             </section>
