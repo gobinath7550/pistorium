@@ -1,9 +1,5 @@
 import type { Metadata } from "next";
 import { Pacifico, Poppins } from "next/font/google";
-import AnnouncementBar from "./_components/theme/global/AnnouncementBar";
-import Header from "./_components/theme/global/Header";
-import Footer from "./_components/theme/global/Footer";
-
 import "./globals.css";
 
 const pacifico = Pacifico({

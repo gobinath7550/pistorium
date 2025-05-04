@@ -6,7 +6,7 @@ import Thumbnail from "./Thumbnail";
 const Link = ({ name }: { name:string }) => {
     return (
         <a href="#" title="" className="text-base text-white transition-all duration-200 border-transparent border-b-[1px] hover:border-white focus:border-white font-bold">
-            {name}
+            
         </a>
     )
 }
@@ -19,7 +19,7 @@ export default function Header() {
             <div className="px-4 mx-auto max-w-[105rem] sm:px-6 lg:px-8">
                 <nav className="flex items-center justify-between h-16 lg:h-20">
                     <div className="flex-shrink-0">
-                        <a href="/" title="Pistorium" className="flex">
+                        <a href="#" title="Pistorium" className="flex">
                             <span className=" tracking-widest font-bold text-white text-3xl font-pacifico">{"Pistorium"}</span>
                         </a>
                     </div>
