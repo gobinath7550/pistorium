@@ -6,7 +6,7 @@ import Thumbnail from "./Thumbnail";
 const Link = ({ name }: { name:string }) => {
     return (
         <a href="#" title="" className="text-base text-white transition-all duration-200 border-transparent border-b-[1px] hover:border-white focus:border-white font-bold">
-            
+            {name}
         </a>
     )
 }
