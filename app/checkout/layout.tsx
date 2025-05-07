@@ -11,7 +11,7 @@ export default function CheckoutLayout({
   children: React.ReactNode;
 }>) {
   return (
-      <main className="bg-yellow-50 text-[var(--background)]">
+      <main className="bg-[var(--foreground)] text-[var(--background)]">
         {children}
       </main>
   );

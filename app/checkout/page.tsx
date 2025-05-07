@@ -124,7 +124,7 @@ export default function Checkout() {
                                     <label htmlFor="payment-1">Razorpay</label>
                                 </div>
                                 <div className="mt-6 flex justify-start items-center gap-3">
-                                    <button className="bg-[var(--background)] w-full flex gap-2 items-center justify-center text-yellow-50 font-bold font-poppins text-md md:text-xl px-6 py-6 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-100 focus:ring-offset-2">
+                                    <button className="bg-[var(--background)] w-full flex gap-2 items-center justify-center text-[var(--foreground)] font-bold font-poppins text-md md:text-xl px-6 py-6 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-100 focus:ring-offset-2">
                                         {"Pay Now"}
                                     </button>
                                 </div>
