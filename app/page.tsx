@@ -2,12 +2,11 @@
 
 import React, { useRef } from "react";
 import Image from "next/image";
-import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import type { Swiper as SwiperType } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
-import "swiper/css/navigation";
 import MainBanner1 from "./_components/theme/global/MainBanner1";
 import PageRender from "./_components/theme/PageRender";
 import CollectionSlider from "./_components/theme/global/CollectionSlider";
